@@ -14,24 +14,43 @@ body{
 .header{
     align-self: flex-start;
     padding: 14 px 9px;
-    color: aqua;
-    height: 300;
-    width: 400;
+    height: 400px;
+    width: 100%;
 }
 
 .title{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 300;
-    width: 1000;
-    background-color: brown;
+    height: 150px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+   
 }
 
 .buttons{
     display: flex;
-    flex-direction: column;
-    background-color: rgb(43, 43, 43);
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    background-color: #2b2b2b;
+    color:#ffffff;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 29px 1px 1px 260px;
+}
+
+nav a{
+    display: flex;
+    padding: 20px 50px 1px 1px;
+    color: #ffffff;    
 }
 
 .main{
@@ -50,6 +69,6 @@ body{
     align-items: center;
     justify-content: space-evenly;
     height: 100px;
-    width: 1366px;
+    width: 100%;
     background-color: darkgreen;
 }
