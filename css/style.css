@@ -62,6 +62,7 @@ nav ul {
     justify-content: space-between;
     list-style-type: none;
     margin: 29px 1px 1px 260px;
+
 }
 
 nav a{
@@ -70,6 +71,7 @@ nav a{
     color: #ffffff;    
     text-decoration: none;
 }
+
 
 .main{
     display: flex;
@@ -92,11 +94,279 @@ nav a{
 .imagenatural{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    min-width: 100vh;
-    width: 100vw;
+    align-items: center; 
     justify-content: space-between;
-    background: transparent url(/image/banner.jpg) center center repeat;
+    min-width: 50vw;
+    height:24vh;
+    background: transparent url('../image/banner.jpg') center center repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    border: none;
+    padding: 120px 1px 100px 1px;
+}
+.bartransparent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 3px;
+    width: 100%;
+    padding: 50px 1px 100px 1px;
+    margin: 114px 1px 1px 1px;
+    background-color: black;
+    opacity: 20%;
+}
+
+.bartransparent > .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+    padding: 1px 50px 10px 100px;
+}
+
+
+.bartransparent > .content > h2 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 10px;
+}
+
+.bartransparent > .content > b {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 40px 100px 10px;
+
+}
+
+.bartransparent > .content > button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 100%;
+}
+
+.frame1{
+    background-color: #ffffff;
+    column-count: 3;
+    column-gap: 3em;
+    column-rule: 1px solid #bbb;
+    column-width: 140px;
+    column-rule-style: none;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+}
+
+.frame1 > .column2 > div > span > .icon-pencil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: 250px 10px 1px 150px;
+}
+
+.frame1 > div > h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.frame1 > div > p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.texthigh{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    vertical-align: middle;
+    margin: 1px 1px 1px 1px;
+}
+
+.firsttext > h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.secondtext > h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.frame2{
+    column-count: 2;
+    column-gap: 2em;
+    column-rule: 5px solid #bbb;
+    column-width: 140px;
+    column-rule-style: none;
+    margin: 10px 10px 10px 80px;
+}
+
+.frame2 > .image1{
+    display: flex;
+    flex-direction: column;
+    background: transparent url('../image/pic01.jpg') left center no-repeat;
+}
+
+.frame2 > .image2 {
+    display: flex;
+    flex-direction: column;
+    background: transparent url('../image/pic02.jpg') left center no-repeat;
+}
+
+.frame2 > .image3 {
+    display: flex;
+    flex-direction: column;
+    background: transparent url('../image/pic03.jpg') left center no-repeat;
+}
+
+.frame2 > .image4 {
+    display: flex;
+    flex-direction: column;
+    background: transparent url('../image/pic04.jpg') left center no-repeat;
+}
+
+.frame2 > div > h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+    margin: 10px 10px 10px 10px;
+}
+
+.frame2 > div > p {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: right;
+    padding: 10px 150px 10px 150px;
+}
+
+.barlightblue{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin: 1px 10px 1px 1px;
+    background-color: #38cefa;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 1px 1px 240px;
+    color: #ffffff;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    margin: 15px 1px 1px 40px;
+    color: #000000;
+}
+
+h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+
+}
+
+.frame3{
+    column-count: 3;
+    column-gap: 3em;
+    column-rule: 1px solid #bbb;
+    column-width: 140px;
+    column-rule-style: none;
+}
+
+.frame3 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px 10px 90px 50px;
+}
+
+.frame3 > div > h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+}
+
+.frame3 > div > div {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+
+.frame3 > div > div > a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    padding: 0;
+    margin: 10px 10px 10px 10px;
+}
+
+input[type=text]{
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted #e9e6e6;
+    border-radius: 0;
+}
+
+.Name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+}
+
+.Email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+}
+
+.Message {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 50px 10px 10px;
+    height: 150px;
+    width: 200px;
 }
 
 .footer{
@@ -106,5 +376,18 @@ nav a{
     justify-content: space-evenly;
     height: 100px;
     width: 100%;
-    background-color: darkgreen;
+    background-color: #e9e6e6;
+    
+}
+
+
+.text {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    column-count: 3;
+    column-gap: 3em;
+    column-rule: 1px solid #bbb;
+    column-width: 140px;
+    padding: 10px 10px 10px 50xp;
 }
